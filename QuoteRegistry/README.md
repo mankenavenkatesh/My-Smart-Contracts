@@ -1,4 +1,4 @@
-# QuoteRegistry - Ownership of Contracts.
+# QuoteRegistry - Ownership of Quotes.
 ``` 
 Quote Registry, a smart contract that will keep a list of quotes and their ownership (Ex: “I have no special talent. I am only passionately curious.” – Einstein). Instead of the author's name, as in the example, the ownership should be an address. 
 
