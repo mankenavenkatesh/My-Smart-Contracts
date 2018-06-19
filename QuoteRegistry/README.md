@@ -1,5 +1,6 @@
 # QuoteRegistry - Ownership of Contracts.
-``` Quote Registry, a smart contract that will keep a list of quotes and their ownership (Ex: “I have no special talent. I am only passionately curious.” – Einstein). Instead of the author's name, as in the example, the ownership should be an address. 
+``` 
+Quote Registry, a smart contract that will keep a list of quotes and their ownership (Ex: “I have no special talent. I am only passionately curious.” – Einstein). Instead of the author's name, as in the example, the ownership should be an address. 
 
 This smart contract should have three public functions: 
 - One to register a quote. The ownership of the quote will be, of course, whoever sent the transaction to register the quote. 
