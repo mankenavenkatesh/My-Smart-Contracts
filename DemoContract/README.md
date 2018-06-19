@@ -1,9 +1,9 @@
 
-# Basic - Demo Smart Contract Tutorial
+# Tutorial to Create Basic Smart Contract
 Build your Demo Smart Contract, on the Ethereum Network with this tutorial!
 Demo Smart contract will store owner of smart contract. 
 
-Follow the steps below to download, install, and run this project.
+Follow the steps below to create a Demo project.
 ## Dependencies
 Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
 - NPM: https://nodejs.org
