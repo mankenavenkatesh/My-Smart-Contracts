@@ -32,7 +32,7 @@ contract("QuoteRegistry", async (accounts)=>{
 
     it("homework test cases", async () => {
         let instance = await QuoteRegistry.deployed();
-        await instance.register("some fun quote", {from : addressA});
+        await instance.register("some fun quote", {from : addressA});        
         await instance.register("some very serious quote", {from : addressB});
         await instance.register("just another quote", {from : addressA});
         let q1Owner = await instance.ownership("some fun quote");

@@ -9,7 +9,7 @@ contract QuoteRegistry {
         owner = msg.sender;
     }
 
-    function register(string _quote) public {
+    function register(string _quote) public {                
         quoteOwners[_quote] = msg.sender;
     }
 
@@ -19,9 +19,9 @@ contract QuoteRegistry {
 
     function transfer(string _quote, address _newOwner) public payable {
         require(msg.value >= 0.5 ether);
-        address oldOwner = quoteOwners[_quote];
-        oldOwner.transfer(0.5 ether);
+        address oldOwner = quoteOwners[_quote];        
         quoteOwners[_quote] = _newOwner;
+        oldOwner.transfer(0.5 ether);
     }
 }
 
