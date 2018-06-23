@@ -19,6 +19,7 @@ contract QuoteRegistry {
     }
 
     function transfer(string _quote, address _newOwner) public payable {
+        require(quoteOwners[_quote] == msg.sender);
         require(msg.value >= 0.5 ether);
         address oldOwner = quoteOwners[_quote];        
         quoteOwners[_quote] = _newOwner;
