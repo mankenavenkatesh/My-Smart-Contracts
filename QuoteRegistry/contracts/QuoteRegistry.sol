@@ -9,7 +9,8 @@ contract QuoteRegistry {
         owner = msg.sender;
     }
 
-    function register(string _quote) public {                
+    function register(string _quote) public { 
+        require(quoteOwners[_quote] == 0x0000000000000000000000000000000000000000);        
         quoteOwners[_quote] = msg.sender;
     }
 

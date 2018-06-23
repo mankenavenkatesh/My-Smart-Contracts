@@ -12,6 +12,18 @@ contract("QuoteRegistry", async (accounts)=>{
         assert.equal(owner, accounts[0]);
     })
 
+    // it("checking if already register", async () =>{
+    //     let instance = await QuoteRegistry.deployed();
+    //     await instance.register("some fun quote", {from : addressA});
+    //     try{
+    //         await instance.register("some fun quote", {from : addressB});                    
+    //     }
+    //     catch(error){
+    //         assert(true);
+    //     }
+        
+    // })
+
     it("registering and validating quote ownership", async ()=> {                      
         let instance = await QuoteRegistry.deployed();
         await instance.register("some fun quote", {from : addressA});
@@ -19,6 +31,7 @@ contract("QuoteRegistry", async (accounts)=>{
         assert.equal(quoteOwner, accounts[1]);
     })
 
+   
     it("transfering quote ownership", async ()=> {
         let instance = await QuoteRegistry.deployed();
         await instance.register("some fun quote", {from : addressA});
