@@ -1,0 +1,18 @@
+proposal states - {OPEN, APPROVED, DENIED} by majority of Voters
+
+Voter operations - {Approve Proposal, Deny Proposal}
+  - Can voter update the vote of Proposal?
+  - Can have only one vote for a proposal?
+
+
+
+  mapping(address => uint) contributorValues;
+  mapping(address => Proposal) beneficiaryProposals;
+  mapping(address => voterCount) beneficiaryVoterCount;
+
+struct Proposal {
+  uint value;
+  address beneficiary;
+  address[] approved;
+  address[] denied;
+}
