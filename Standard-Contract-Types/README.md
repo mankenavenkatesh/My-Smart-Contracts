@@ -1,10 +1,4 @@
 
-# Standard Smart Contract Types
-This repo contains all production level standard smart contracts. 
-
-## Dependencies
-
-
 # Standard Smart Contract Types</p>
 This repo contains all production level standard smart contracts. 
 
