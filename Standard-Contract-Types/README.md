@@ -1,6 +1,6 @@
 
 # Standard Smart Contract Types</p>
-This repo contains all production level standard smart contracts. 
+This repo contains Solidity smart contract code for simple, standards-compliant tokens on Ethereum. Adhering to standards allows other contract developers to easily incorporate your token into their applications.
 
 | [ERC Standard Contracts](#erc-standards) | [Contract Types](#contract-types) 
 
