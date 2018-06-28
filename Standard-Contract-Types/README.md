@@ -8,9 +8,9 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 ## erc-standards
 
 #### My Solidity ERC Standard Token Contract Types 
-- [ERC-20](https://github.com/mankenavenkatesh/learning-solidity)
-- [ERC-223](https://github.com/mankenavenkatesh/Solidity-patterns)
-- [ERC-721](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/DemoContract)
+- [ERC-20](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/ERC-20)
+- [ERC-223](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/ERC-223)
+- [ERC-721](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/ERC-721)
 
 
 ## contract-types
