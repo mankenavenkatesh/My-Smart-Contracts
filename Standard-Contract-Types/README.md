@@ -8,7 +8,7 @@ This repo contains all production level standard smart contracts.
 # Standard Smart Contract Types</p>
 This repo contains all production level standard smart contracts. 
 
-| [ERC Standard Contracts](#ercstandards) | [Hyperledger](#hyperledger)
+| [ERC Standard Contracts](#ercstandards)
 
 
 ## ercstandards
