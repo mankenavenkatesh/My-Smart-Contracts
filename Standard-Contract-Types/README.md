@@ -25,6 +25,12 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 ##### Utility Token. Tokens to get a service. Like Ether used for paying fee for transactions. 
 ##### Equity Token. Tokens to invest in company and get the profits.
 
-Fungible Tokens - 
-Non Fungible Tokens - 
+### Fungible Tokens (Ex. Stock shares) 
+ - Interchangeable.
+ - Divisible into smaller units.
+ - uniform, identical to each other.
+### Non Fungible Tokens - (Ex. arts, lands, certificates, cryptokitties)
+ - Each unit is unique. there is no repeated unit. 
+ - Cannot be divisible into smaller parts.
+ - It is not interchangeable.
 
