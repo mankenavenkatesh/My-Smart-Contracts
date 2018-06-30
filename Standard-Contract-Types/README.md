@@ -25,3 +25,6 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 ##### Utility Token. Tokens to get a service. Like Ether used for paying fee for transactions. 
 ##### Equity Token. Tokens to invest in company and get the profits.
 
+Fungible Tokens - 
+Non Fungible Tokens - 
+
