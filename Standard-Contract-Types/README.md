@@ -17,3 +17,20 @@ This repo contains Solidity smart contract code for simple, standards-compliant 
 
 #### Different Types of Smart contracts
 - [Multisig Wallet](https://github.com/mankenavenkatesh/My-Smart-Contracts/tree/master/Standard-Contract-Types/Multisig-Wallet)
+
+## Tokens
+
+### Types of tokens
+
+##### Utility Token. Tokens to get a service. Like Ether used for paying fee for transactions. 
+##### Equity Token. Tokens to invest in company and get the profits.
+
+### Fungible Tokens (Ex. Stock shares) 
+ - Interchangeable.
+ - Divisible into smaller units.
+ - uniform, identical to each other.
+### Non Fungible Tokens - (Ex. arts, lands, certificates, cryptokitties)
+ - Each unit is unique. there is no repeated unit. 
+ - Cannot be divisible into smaller parts.
+ - It is not interchangeable.
+
